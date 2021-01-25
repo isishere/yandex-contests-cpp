@@ -1,4 +1,4 @@
-///                                                          *** Sum of digits ***                ///
+///                                       *** Sum of digits ***                                   ///
 ///                                                                                               ///
 ///                                                                                               ///
 /// You need to calculate the sum of digits of a nonnegative integer.                             ///
