@@ -21,13 +21,13 @@ int main() {
 
     int N;
     int M;
-    std::string tab = "    ";
+    std::string tab = "\t";
 
     std::cin >> N;
     std::cin >> M;
 
     int numOfRem = 0;
-    std::cout << " " + tab;
+    std::cout << tab;
     while (numOfRem != N % M)
     {
         std::cout << numOfRem+1 << tab;
