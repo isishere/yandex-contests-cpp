@@ -19,34 +19,22 @@
 int main()
 {
     int wholeMass;
-    int workPiece;
-    int detail;
-    int detailsNum;
+    int MWorkPiece;
+    int MDetails;
 
     std::cin >> wholeMass;
-    std::cin >> workPiece;
-    std::cin >> detail;
+    std::cin >> MWorkPiece;
+    std::cin >> MDetails;
 
-    int wholePart_rem1 = wholeMass/workPiece;
-    int wholePart_rem2 = workPiece/detail;
-    double decimalPart_rem1 = wholeMass % workPiece;
-    double decimalPart_rem2 = workPiece % detail;
+    int NDetails = 0;
+    int temporary;
 
-
-    while(decimalPart_rem1 + decimalPart_rem2 >= 1)
-        wholePart_rem1 = wholeMass/workPiece;
-        wholePart_rem2 = workPiece/detail;
-        decimalPart_rem1 = wholeMass % workPiece;
-        decimalPart_rem2 = workPiece % detail;
-
-        wholeMass -= wholePart_rem1*workPiece;
-        workPiece -= wholePart_rem2*detail;
-
-        wholeMass -= (int) (decimalPart_rem1 + decimalPart_rem2);
-        detailsNum = wholePart_rem1 + wholePart_rem2 + (int) (decimalPart_rem1 + decimalPart_rem2);
-
-
-    std::cout << detailsNum;
-
+    while (wholeMass >= MWorkPiece)
+    {
+        temporary = wholeMass / MWorkPiece;
+        NDetails += temporary*(MWorkPiece/MDetails);
+        wholeMass -= temporary*(MWorkPiece/MDetails+1)*MDetails;
+    }
+    std::cout << NDetails;
     return 0;
 }
