@@ -17,6 +17,8 @@
 
 #include <iostream>
 
+///  USING WHILE  ///
+
 int main() {
 
     int N;
@@ -52,3 +54,35 @@ int main() {
 
     return 0;
 }
+
+///  USING FOR  ///
+
+int main()
+{
+    int N;
+    int M;
+    std::string tab = "\t";
+
+    std::cin >> N;
+    std::cin >> M;
+
+    std::cout << tab;
+
+    for (int colNum=0; colNum <= N; ++colNum)
+    {
+        for (int rawNum = 1; rawNum <= N; ++rawNum)
+        {
+            if (colNum == 0)                                    //  The body of the table
+                std::cout << rawNum << tab;                     //  The body of the table
+            else                                                //  The body of the table
+                std::cout << (colNum * rawNum) % M << tab;      //  The body of the table
+        }
+        std::cout << std::endl;
+
+        if (colNum + 1 <= N)
+            std::cout << colNum + 1 << tab;  //  output the 2nd column
+    }
+
+    return 0;
+}
+
