@@ -26,27 +26,28 @@ int main() {
     std::cin >> N;
     std::cin >> M;
 
-    int numOfRem = 0;
+    int firstRawNums = 0;
     std::cout << tab;
-    while (numOfRem != N % M)
+    while (firstRawNums != N % M)
     {
-        std::cout << numOfRem+1 << tab;
-        ++numOfRem;
+        std::cout << firstRawNums + 1 << tab;  //  output the first raw
+        ++firstRawNums;
     }
     std::cout << std::endl;
 
-    int numOfRem1 = 0;
-    while (numOfRem1 != N % M)
+
+    int columnNums = 0;
+    while (columnNums != N % M)
     {
-        std::cout << numOfRem1+1 << tab;
-        int numOfRem2 = 0;
-        while(numOfRem2 != N % M)
+        std::cout << columnNums + 1 << tab;
+        int eachRawNums = 0;
+        while(eachRawNums != N % M)
         {
-            ++numOfRem2;
-            std::cout << ((numOfRem1+1)*numOfRem2) % M << tab;
+            ++eachRawNums;
+            std::cout << ((columnNums + 1) * eachRawNums) % M << tab;  //  output each reminder of a multiplication into the raw
         }
-        std::cout << std::endl;
-        ++numOfRem1;
+        std::cout << std::endl;  //  output each reminder into the first column
+        ++columnNums;
     }
 
     return 0;
