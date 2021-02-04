@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ContestX_skeleton"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemI">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemI"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemI/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemI/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemJ">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemJ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemJ"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemJ/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemJ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemJ/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemH">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemH"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemH/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemH/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemB">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemB"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemB/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemB/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemG">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemG"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemG/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemG/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemD">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemD"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemD/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemD/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemE">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemE"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemE/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemE/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemC">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemC"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemC/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemC/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemF">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemF"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemF/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemF/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemA">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemA"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PloblemA/fast">
+				<Option output="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/PloblemA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 PloblemA/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/a/main.cpp">
+			<Option target="PloblemA"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/b/main.cpp">
+			<Option target="PloblemB"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/c/main.cpp">
+			<Option target="PloblemC"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/d/main.cpp">
+			<Option target="PloblemD"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/e/main.cpp">
+			<Option target="PloblemE"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/f/main.cpp">
+			<Option target="PloblemF"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/g/main.cpp">
+			<Option target="PloblemG"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/h/main.cpp">
+			<Option target="PloblemH"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/i/main.cpp">
+			<Option target="PloblemI"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/j/main.cpp">
+			<Option target="PloblemJ"/>
+		</Unit>
+		<Unit filename="/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

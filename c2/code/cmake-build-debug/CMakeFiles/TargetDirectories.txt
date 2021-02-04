@@ -1,0 +1,12 @@
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemI.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemJ.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemH.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemB.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemG.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemD.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemE.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemC.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemF.dir
+/Users/ilyasuchkov/Proga/GitHub/yandex-contests-cpp/c2/code/cmake-build-debug/CMakeFiles/PloblemA.dir
