@@ -7,7 +7,6 @@
 ///                                                                                                                                                 ///
 ///                                                               *** Passwords ***                                                                 ///
 ///                                                                                                                                                 ///
-///                                                                                                                                                 ///
 ///  Vasya wants to change his email password, because he is afraid that his mailbox might have been hacked.                                        ///
 ///  According to the rules, a new password must meet the following restrictions:                                                                   ///
 ///  - consist of ASCII table characters with codes from 33 to 127;                                                                                 ///
@@ -18,6 +17,8 @@
 ///  Input Format ::::  At the entrance is given one line - the new Vasya's password.                                                               ///
 ///                                                                                                                                                 ///
 ///  Output Format :::: Output YES, if Vasya's password meets the requirements, and NO otherwise.                                                   ///
+///                                                                                                                                                 ///
+///  EXAMPLE            Input1: Vasya123  Output2: YES                                                                                              ///                                                                                                                                              
 ///                                                                                                                                                 ///
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
