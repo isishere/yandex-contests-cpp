@@ -5,7 +5,7 @@
 ///  \version    0.1.0                                                                                                                              /// 
 ///  \date       16.02.2021                                                                                                                         ///
 ///                                                                                                                                                 ///
-///                                                               *** Passwords ***                                                                 ///
+///  *** Passwords ***                                                                                                                              ///
 ///                                                                                                                                                 ///
 ///  Vasya wants to change his email password, because he is afraid that his mailbox might have been hacked.                                        ///
 ///  According to the rules, a new password must meet the following restrictions:                                                                   ///
