@@ -1,22 +1,30 @@
 ////////////////////////////////////////////////////////////////////////////////
-/// \file
-/// \brief      Main module for Contest X Problem Y
-/// \author     Student's Name
+/// \file       main.cpp
+/// \brief      Main module for Contest 2 Problem С
+/// \author     Suchkov Ilya
 /// \version    0.1.0
-/// \date       25.01.2021
+/// \date       15.02.2021
 ///
-/// Copy the task description here.
-///
+/// File is given. Determine how many letters in it (the Latin alphabet), words, lines. 
+/// Output the three numbers found in the format given in the example. A word is a sequence of letters of the Latin alphabet.
+/// To save memory, read the file character by character, that is, without saving the file or its individual lines in memory.
+/// 
+/// INPUT  :::: Beautiful is better than ugly.
+///             Explicit is better than implicit.
+///             Simple is better than complex.
+///             Complex is better than complicated.
+/// OUTPUT :::: Input file contains:
+///             108 letters 
+///             20 words 
+///             4 lines 
 ////////////////////////////////////////////////////////////////////////////////
-
-
 #include <iostream>
 #include <string>
 #include <fstream>
 
 int main()
 {
-    const std::string INP_FILE_NAME = "/Users/ilyasuchkov/Proga/cpp/contests/c2/c/input.txt";
+    const std::string INP_FILE_NAME = "input.txt";
     std::ifstream inputFile;
     inputFile.open(INP_FILE_NAME);
 
@@ -40,6 +48,10 @@ int main()
     {
         std::string inLine;
         std::getline(inputFile, inLine);
+
+        if (inLine[0] == '\0')  //  for an empty line
+            --lineCounter;
+
         ++lineCounter;
 
         for (int i = 0; i < inLine.size(); ++i)
@@ -47,11 +59,11 @@ int main()
             if ((inLine[i] >= char65 && inLine[i] <= char90) || (inLine[i] >= char97 && inLine[i] <= char122))
                 ++letterCounter;
 
-            if (inLine[i] == ' ')
+            if (inLine[i] == ' ')  //  general counter
                 ++wordCounter;
-            else if (inLine[i] == '.' && inLine[i+1] != ' ')
+            else if (inLine[i] == '.' && inLine[i+1] != ' ')  //  for abbreviations such as "U.S."
                 ++wordCounter;
-            else if (i == inLine.size() - 1)
+            else if (i == inLine.size() - 1)  //  for the last word in a file
                 ++wordCounter;
         }
     }
