@@ -4,6 +4,7 @@
 ///  \author     Suchkov Ilya                                                                                                                           ///
 ///  \version    2035.0.0                                                                                                                               ///
 ///  \date       15.02.2021                                                                                                                             ///
+///  \verdict    WA (Test 7)                                                                                                                            ///
 ///                                                                                                                                                     ///
 ///  *** Add one ***                                                                                                                                    ///
 ///                                                                                                                                                     ///
