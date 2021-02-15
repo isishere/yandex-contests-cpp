@@ -1,13 +1,24 @@
-////////////////////////////////////////////////////////////////////////////////
-/// \file
-/// \brief      Main module for Contest X Problem Y
-/// \author     Student's Name
-/// \version    0.1.0
-/// \date       25.01.2021
-///
-/// Copy the task description here.
-///
-////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///  \file       main.cpp                                                                                                                            ///
+///  \brief      Main module for Contest 2 Problem B                                                                                                 ///
+///  \author     Suchkov Ilya                                                                                                                        ///
+///  \version    0.1.0                                                                                                                               ///
+///  \date       16.02.2021                                                                                                                          ///
+///                                                                                                                                                  ///
+///                                                          *** Is the string palindrome? ***                                                       ///
+///                                                                                                                                                  ///
+///  A string consisting of lowercase Latin letters and spaces is given. Check whether it is a palindrome without spaces (eg, "no lemon no melon").  ///
+///                                                                                                                                                  ///
+///  INPUT Format ::::  A string consisting of lowercase Latin letters and spaces is given.                                                          ///
+///                     Check whether it is a palindrome without spaces (eg, "no lemon no melon").                                                   ///
+///                                                                                                                                                  ///
+///  OUTPUT Format :::: The input is 1 line of length not more than 100, containing spaces.                                                          ///
+///                     There can be an arbitrary number of spaces between words.                                                                    ///
+///                                                                                                                                                  ///
+///  EXAMPLE            Input1: yes  Output1: f                                                                                                      ///
+///                     Input2: ok   Output2: ok                                                                                                     ///
+///                                                                                                                                                  ///
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
 #include <string>
