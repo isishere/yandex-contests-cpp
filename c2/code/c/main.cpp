@@ -5,6 +5,8 @@
 ///  \version    2035.0.0                                                                                                                               ///
 ///  \date       15.02.2021                                                                                                                             ///
 ///                                                                                                                                                     ///
+///                                                      *** Add one ***                                                                                ///
+///                                                                                                                                                     ///
 ///  File is given. Determine how many letters in it (the Latin alphabet), words, lines.                                                                ///
 ///  Output the three numbers found in the format given in the example. A word is a sequence of letters of the Latin alphabet.                          ///
 ///  To save memory, read the file character by character, that is, without saving the file or its individual lines in memory.                          ///
