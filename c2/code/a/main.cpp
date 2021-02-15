@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////////////////
-/// \file
-/// \brief      Main module for Contest X Problem Y
-/// \author     Student's Name
-/// \version    0.1.0
-/// \date       25.01.2021
-///
-///                                                          *** Passwords ***                                                                      ///
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///  \file       main.cpp                                                                                                                           ///
+///  \brief      Main module for Contest 2 Problem A                                                                                                ///
+///  \author     Suchkov Ilya                                                                                                                       ///
+///  \version    0.1.0                                                                                                                              /// 
+///  \date       16.02.2021                                                                                                                         ///
+///                                                                                                                                                 ///
+///                                                               *** Passwords ***                                                                 ///
 ///                                                                                                                                                 ///
 ///                                                                                                                                                 ///
 ///  Vasya wants to change his email password, because he is afraid that his mailbox might have been hacked.                                        ///
