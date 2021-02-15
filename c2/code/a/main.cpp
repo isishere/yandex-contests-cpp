@@ -4,6 +4,7 @@
 ///  \author     Suchkov Ilya                                                                                                                       ///
 ///  \version    0.1.0                                                                                                                              /// 
 ///  \date       16.02.2021                                                                                                                         ///
+///  \verdict    OK                                                                                                                                 ///
 ///                                                                                                                                                 ///
 ///  *** Passwords ***                                                                                                                              ///
 ///                                                                                                                                                 ///
