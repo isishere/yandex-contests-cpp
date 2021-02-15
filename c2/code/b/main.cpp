@@ -4,8 +4,9 @@
 ///  \author     Suchkov Ilya                                                                                                                        ///
 ///  \version    0.1.0                                                                                                                               ///
 ///  \date       16.02.2021                                                                                                                          ///
+///  \verdict    OK                                                                                                                                  ///
 ///                                                                                                                                                  ///
-///                                                          *** Is the string palindrome? ***                                                       ///
+///  *** Is the string palindrome? ***                                                                                                               ///
 ///                                                                                                                                                  ///
 ///  A string consisting of lowercase Latin letters and spaces is given. Check whether it is a palindrome without spaces (eg, "no lemon no melon").  ///
 ///                                                                                                                                                  ///
