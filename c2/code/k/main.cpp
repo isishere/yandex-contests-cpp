@@ -21,7 +21,7 @@
 ///                                                                                                                    ///
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/// FOR CONTEST (SAFTISFYING REQUIRMENTS) ///
+/// FOR CONTEST (SAFTISFYING REQUIRMENTS, WITHOUT MAIN FUNC.) ///
 
 #include <sstream>
 std::string ExtractDigits(const std::string& string)
@@ -44,7 +44,7 @@ std::string ExtractDigits(const std::string& string)
     return numString;
 }
 
-/// WORKING PROGRAMM (WITH IOSTREAM & MAIN FUNC. & HEADER FILES) ///
+/// WORKING PROGRAMM (MAIN FUNC. & HEADER FILES) ///
 
 #include <iostream>
 #include <string>
