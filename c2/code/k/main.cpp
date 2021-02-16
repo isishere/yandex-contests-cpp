@@ -3,7 +3,7 @@
 ///  \brief      Main module for Contest 2 Problem K                                                                   ///
 ///  \author     Suchkov Ilya                                                                                          ///
 ///  \version    0.1.0                                                                                                 ///
-///  \date       16.02.2021                                                                                            ///
+///  \date       17.02.2021                                                                                            ///
 ///  \verdict    OK                                                                                                    ///
 ///                                                                                                                    ///
 ///  *** Extract numbers ***                                                                                           ///
