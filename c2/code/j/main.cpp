@@ -59,7 +59,7 @@ std::string join(const std::vector<std::string>& tokens, char delimiter)
     return newLine;
 }
 
-/// WORKING PROGRAMM (MAIN FUNC. & HEADER FILES) ///
+/// (NOT)WORKING PROGRAMM (MAIN FUNC. & HEADER FILES) ///
 
 #include <iostream>
 #include <string>
