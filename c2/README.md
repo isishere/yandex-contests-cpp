@@ -1,4 +1,3 @@
-# DSBA Introduction to Programming // Contests skeleton
+# DSBA Introduction to Programming // Contest 3
 Spring semester 2020/21
 
-Recomended structure for Contests Projects.
