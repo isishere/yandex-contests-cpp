@@ -80,7 +80,7 @@ std::vector<Student> readStudents(std::istream& istr)
     {
         Student st;
 
-        std::vector<std::string> vec = split(line, '\t');
+        std::vector<std::string> vec = split(line, ',');
 
         st.name = vec[0];
         st.group = std::stoi(vec[1]);
