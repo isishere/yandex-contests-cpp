@@ -167,14 +167,47 @@ int main()
 
     IntVecMap psMap = Candidate::allocate(skills, languages);
 
-    int counter = 0;
-    for (int i = 0; i != skills.size(); ++i)
+   int counter = 0;
+    for (std::string& i : perms)
     {
+        std::vector<bool> rez;
+        std::vector<std::vector<bool>> temp;
 
+        for (const char& t : i)
+            for (const auto& k : psMap)
+                if (t - 48 == k.first)
+                    temp.push_back(k.second);
+
+        bool sum = true;
+
+        if (temp.size() > 1)
+        {
+            for (int j = 0; j < temp[0].size(); ++j)
+            {
+                for (int k = 0; k < temp.size(); ++k)
+                    sum |= temp[k][j];
+                rez.push_back(sum);
+            }
+
+            sum = true;
+            for (const bool &r : rez)
+                sum &= r;
+
+            if (sum)
+                ++counter;
+        }
+        else
+        {
+            for (const auto& t : temp)
+                for (const auto& e : t)
+                    sum &= e;
+
+                if (sum)
+                    ++counter;
+        }
     }
 
-    
-
+    std::cout << counter;
     return 0;
 }
 
