@@ -18,9 +18,7 @@ uint8_t countOnes(uint64_t a)
 int main()
 {
     uint32_t n;
-    uint32_t k;
     std::cin >> n;
-    std::cin >> k;
 
     uint8_t result = countOnes(n);
     std::cout << result;
